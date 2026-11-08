@@ -21,7 +21,7 @@
 			copy.textContent = root.lang === "en" ? "Copied" : "Скопировано";
 			setTimeout(function () { copy.innerHTML = copy.dataset.label; }, 1600);
 		};
-		var mail = "papasharau@gmail.com";
+		var mail = "karbid.games@gmail.com";
 		if (navigator.clipboard) navigator.clipboard.writeText(mail).then(done, function () {});
 	});
 })();
